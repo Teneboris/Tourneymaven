@@ -1,0 +1,17 @@
+INFO  [2019-02-12 22:09:30,110] org.eclipse.jetty.util.log: Logging initialized @6342ms to org.eclipse.jetty.util.log.Slf4jLog
+INFO  [2019-02-12 22:09:30,344] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+INFO  [2019-02-12 22:09:30,368] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+INFO  [2019-02-12 22:09:31,169] org.hibernate.Version: HHH000412: Hibernate Core {[WORKING]}
+INFO  [2019-02-12 22:09:31,170] org.hibernate.cfg.Environment: HHH000206: hibernate.properties not found
+INFO  [2019-02-12 22:09:31,205] io.dropwizard.hibernate.SessionFactoryFactory: Entity classes: [model.Tournament]
+INFO  [2019-02-12 22:09:31,301] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+INFO  [2019-02-12 22:09:32,481] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+INFO  [2019-02-12 22:09:33,330] org.hibernate.type.BasicTypeRegistry: HHH000270: Type registration [java.util.Currency] overrides previous : org.hibernate.type.CurrencyType@4269aad7
+INFO  [2019-02-12 22:09:33,331] org.hibernate.type.BasicTypeRegistry: HHH000270: Type registration [java.time.Duration] overrides previous : org.hibernate.type.DurationType@a4df251
+INFO  [2019-02-12 22:09:33,331] org.hibernate.type.BasicTypeRegistry: HHH000270: Type registration [java.time.Instant] overrides previous : org.hibernate.type.InstantType@71e7830a
+INFO  [2019-02-12 22:09:33,331] org.hibernate.type.BasicTypeRegistry: HHH000270: Type registration [java.time.LocalDate] overrides previous : org.hibernate.type.LocalDateType@3feebf9c
+INFO  [2019-02-12 22:09:33,331] org.hibernate.type.BasicTypeRegistry: HHH000270: Type registration [java.time.LocalDateTime] overrides previous : org.hibernate.type.LocalDateTimeType@305e95a4
+INFO  [2019-02-12 22:09:33,332] org.hibernate.type.BasicTypeRegistry: HHH000270: Type registration [java.time.LocalTime] overrides previous : org.hibernate.type.LocalTimeType@55e42684
+INFO  [2019-02-12 22:09:33,332] org.hibernate.type.BasicTypeRegistry: HHH000270: Type registration [java.time.OffsetDateTime] overrides previous : org.hibernate.type.OffsetDateTimeType@18d610e1
+INFO  [2019-02-12 22:09:33,332] org.hibernate.type.BasicTypeRegistry: HHH000270: Type registration [java.time.OffsetTime] overrides previous : org.hibernate.type.OffsetTimeType@528e5e38
+INFO  [2019-02-12 22:09:33,333] org.hibernate.type.BasicTypeRegistry: HHH000270: Type registration [java.time.ZonedDateTime] overrides previous : org.hibernate.type.ZonedDateTimeType@16391278

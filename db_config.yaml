@@ -1,0 +1,42 @@
+server:
+  #  softNofileLimit: 1000
+  #  hardNofileLimit: 1000
+  applicationConnectors:
+    - type: http
+      port: 8080
+
+
+
+
+# Database settings.
+database:
+  # the name of the JDBC driver,
+  driverClass: com.mysql.jdbc.Driver
+  # mysql username
+  user: root
+  # mysql password
+  password: root #Test Database Jens
+  # the JDBC URL;  jdbc:mysql://ip:port/databasename
+  url: jdbc:mysql://localhost:3306/Tourney?serverTimezone=CET
+  properties:
+    charSet: UTF-8
+    hibernate.dialect: org.hibernate.dialect.MySQLDialect
+
+    # the maximum amount of time to wait on an empty pool before throwing an exception
+  maxWaitForConnection: 1s
+
+    # the SQL query to run when validating a connection's liveness
+  validationQuery: "/* MyApplication Health Check */ SELECT 1"
+
+    # the minimum number of connections to keep open
+  minSize: 8
+
+    # the maximum number of connections to keep open
+  maxSize: 32
+
+    # whether or not idle connections should be validated
+  checkConnectionWhileIdle: false
+
+
+
+

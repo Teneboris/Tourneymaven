@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TournamentServiceApp">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="TournamentServiceApp.jar" />
+  </artifact>
+</component>
